@@ -1,2 +1,2 @@
-# CYB120L - Python Scripting Lab\
+# CYB120L - Python Scripting Lab
 ## Meets Tuesday and Thursday
