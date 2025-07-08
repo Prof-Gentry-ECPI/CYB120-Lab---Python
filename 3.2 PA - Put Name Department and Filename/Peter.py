@@ -15,7 +15,7 @@ file_name == "username.txt"
 file_exists = os.path.isfile(file_name)
 
 if file_exists:
-    f = open(file_name,. "r")
+    f = open(file_name, "r")
     item = f.read()
     List = item.split("," )
     f.close()
