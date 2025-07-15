@@ -8,11 +8,15 @@ Dim pdfsource as string = "SmallPDF.pdf"
 item = CorpLogo .printheader(ReportName)
 for count = 1 to 5
     print(item(count))
+next count
     
 print("\n")
 
-if pull = pdfplumber.open(pdfsource) then
-    print(list)
+list = pdfplumber. open(pdfsource)
+for num = 1 to ubound(list)
+    text = page(num).extract_text()
+
+print(text)
 
 print("\n")
 footer = call CorpLogo .printfooter(ReportName, StudentID)
