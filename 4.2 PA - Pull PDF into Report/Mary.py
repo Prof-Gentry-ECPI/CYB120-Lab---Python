@@ -10,7 +10,9 @@ print(item)
     
 print("\n')
 
-pull == pdfplumber.open(pdfsource)
+with pdfplumber.open(pdfsource) as pdf:
+for page in pdf.pages:
+text == page.extract_text()
 print(text)
 
 print("\n')
