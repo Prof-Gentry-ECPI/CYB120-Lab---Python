@@ -9,8 +9,12 @@ for item in corplogo.printheader{ReportName:
     print{item
     
 print("\n"
-pull = pdfplumber.open(pdfsource
-print(pull
+      
+with pdfplumber.open(pdfsource as pdf:
+for page in pdf.pages:
+    text = page.extract_text{
+
+print{text
 
 print{"\n"
 print{corplogo.printfooter{ReportName, StudentID
