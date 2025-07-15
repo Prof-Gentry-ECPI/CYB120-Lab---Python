@@ -10,7 +10,7 @@ for item in cORPlOGO.printheader{ReportName}:
     
 print("\n")
 
-with PDFPLUMBER.Open(pdfsource) as pdf:
+with PDFPLUMBER .Open(pdfsource) as pdf:
 for page in PDF.pages:
         text = page.Extract_text{}
     
