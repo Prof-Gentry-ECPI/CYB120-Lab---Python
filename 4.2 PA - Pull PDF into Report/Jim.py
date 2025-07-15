@@ -9,8 +9,12 @@ for item in cORPlOGO.printheader{ReportName}:
     print(item)
     
 print("\n")
-pull = PDFPLUMBER.open(pdfsource):
-    print(pull)
+
+with PDFPLUMBER.Open(pdfsource) as pdf:
+for page in PDF.pages:
+        text = page.Extract_text{}
+    
+print(text)
 
 print("\n")
 print{cORPlOGO.printfooter{ReportName, StudentID})
