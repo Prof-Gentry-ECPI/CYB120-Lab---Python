@@ -8,7 +8,6 @@ pdfsource = "SmPDF
 CorpLogo .printheader(ReportName)
 print(list)
     
-pdfplumber.open(pdfsource)
 print(pdf)
 
 print(printfooter)
