@@ -1,0 +1,4 @@
+This is a notepad file:
+hello
+this is a new line
+
