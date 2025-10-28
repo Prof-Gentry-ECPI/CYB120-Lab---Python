@@ -26,8 +26,8 @@ def print_header(info):
     print(f"Name: {info[0]}")
     print(f"Department: {info[1]}")
     print(f"Computer Name: {info[2]}")
-    print(f"Date: {get_today_date}")
-    print(f"Report: {info[4]}")
+    print(f"Date: {get_today_date()}")
+    print(f"Report: {info[3]}")
     print("-" * 50)  # Visual separator for neatness
 
 
